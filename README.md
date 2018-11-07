@@ -16,7 +16,7 @@ Current status:
 
 Javascript Standard
 
-## Screenshots / Instructions
+## Screenshots 
 
 ![alt text](https://github.com/JohnnyNeagoe/My-Portfolio/blob/master/assets/images/screen-grab.png?raw=true)
 
