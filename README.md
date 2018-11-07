@@ -18,7 +18,7 @@ Javascript Standard
 
 ## Screenshots / Instructions
 
-![alt text](https://github.com/johnnyneage/my-portfolio/assets/images/screen-grab.png?raw=true)
+![alt text](https://github.com/johnnyneagoe/My-Portfolio/assets/images/screen-grab.png?raw=true)
 
 ## Tech/Frameworks used
 
