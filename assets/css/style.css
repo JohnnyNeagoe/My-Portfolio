@@ -477,12 +477,23 @@ img {
 .project-description {
     color: white
 }
+
 .carousel-caption{
     background-color: rgba(0,0,0,.3);
     border-radius: 20px;
     padding:0;
     max-width: 680px;
     margin: auto;
+}
+.carousel-caption-two{
+    position: relative !important;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 20px;
+    padding:0;
+    max-width: 680px;
+    top: 30px;
+    left:10px;
+    z-index: 1;
 }
 
 /*---- 7. Form Area ----*/
