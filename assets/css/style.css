@@ -506,12 +506,40 @@ img {
 
 /*---- 7. Form Area ----*/
 
-#contact-page{
+/* #contact-page{
     background-color: #2a2a2a!important;
     background: -webkit-linear-gradient(top, #414040 0%, #2a2a2a 100%)!important;
     background: -o-linear-gradient(top, #414040 0%, #2a2a2a 100%)!important;
     background: linear-gradient(to bottom, #414040 0%, #2a2a2a 100%)!important;
-}
+} */
+  .socialMedia a.githubTwo {
+    background: rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    margin-bottom: 20px;
+  }
+  .socialMedia a.messageTwo {
+      background: rgb(0, 0, 0);
+      width: 150px;
+      height: 150px;
+      margin: 50px;
+      margin-bottom: 20px;
+    }
+  .socialMedia a.linkedinTwo{
+    background: #0e76a8;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    margin-bottom: 20px;
+  } 
+    .contact {
+    font-size: 50px;
+  }
+  .contactContainer {
+      text-align: center;
+  }
+
 
 /*---- 8. Skills & Services Area ----*/
 
@@ -619,6 +647,7 @@ img {
     }
     .socialMedia a:hover{
       opacity: .7;
+      text-decoration: none;
     }
     .socialMedia a i{
       display: table-cell;
@@ -633,9 +662,6 @@ img {
         width: 70px;
         border: 3px solid #ffbf3b;
     }
-    .socialMedia a.facebook {
-      background: #2D5DA1;
-    }
     .socialMedia a.github {
       background: rgb(0, 0, 0);
     }
@@ -647,10 +673,9 @@ img {
     } 
     .footer-section p {
       font-size: 12px;
-      line-height: 24px;
-      margin-bottom: 0;
+      line-height: 12px;
       color: #fff;
-      margin-top: 20px;
+      margin-bottom: -5px;
       line-height: normal;
     }
 
