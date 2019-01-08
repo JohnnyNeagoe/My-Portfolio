@@ -290,9 +290,10 @@ body {
     height: 100vh;
     position: relative;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     overflow: hidden;
+    background-attachment: fixed;
 }
 .header-area.landing-header {
     background-image: url("../images/backgroundOne.jpg");
