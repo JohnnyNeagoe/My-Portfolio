@@ -395,7 +395,7 @@ body {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-img {
+#me {
     max-width: 100%;
     height: auto;
 }
@@ -426,6 +426,47 @@ img {
 
 /*---- 6. Work-Area ----*/
 
+.carousel-container {
+    width:72%;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+.workImg {
+    width: 800px;
+    height:480px;
+    align-self: auto;
+    text-align: center;
+}
+
+#prevBtn{
+    position: absolute;
+    top:30%;
+    z-index: 100;
+    left: 5%;
+    font-size: 80px;
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+}
+#nextBtn{
+    position: absolute;
+    top:30%;
+    z-index: 10;
+    right: 5%;
+    font-size: 80px;
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+}
+
 .date{
     color: black;
     font-weight: 700;
@@ -438,19 +479,8 @@ img {
 #para {
     text-align: center;
 }
-.carousel-control-prev{
-    left:2%;
-    max-height: 50px;
-    max-width:50px;
-    margin: auto;
-}
-.carousel-control-next{
-    right:1.5%;
-    max-height: 50px;
-    max-width: 50px;
-    margin: auto;
-}
-.carousel-control-prev-icon {
+
+/* .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
     height: 100px!important;
     width: 100px!important;
@@ -459,34 +489,34 @@ img {
     background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important;
     height: 100px!important;
     width: 100px!important;
-}
-.works {
+} */
+/* .works {
         height: 100%;
         width: 100%;
         max-width: 680px;
         max-height: 523px;
         margin: auto;
-    }
-.carousel-item{
+    } */
+/* .carousel-item{
     text-align: center;
-    
-}
+} */
 .project-header{
-    color: white;
-    margin-bottom: -4px;
-}
+    color: black;
+    margin-bottom: -2px;
+    text-align: center;
+} 
 .project-description {
-    color: white;
-    /* line-height: 90%; */
-}
+    color: black;
+    text-align: center;
+} 
 
-.carousel-caption{
+/* .carousel-caption{
     background-color: rgba(0,0,0,.3);
     border-radius: 10px;
     padding:5px;
     max-width: 680px;
     margin: auto;
-}
+}  */
 
 .btnGit{
     font-size: 15px;
@@ -495,6 +525,14 @@ img {
     color: goldenrod;
     border-radius: 5px;
     opacity: 1;
+    margin: 2%;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    z-index: 10;
+}
+.slides {
+    position: relative;
 }
 
 .btnGit:Hover{
@@ -503,6 +541,9 @@ img {
 
 .lineSp{
     line-height: 1
+} 
+.projDis{
+    text-align: center;
 }
 
 /*---- 7. Form Area ----*/
